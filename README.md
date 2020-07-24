@@ -16,7 +16,7 @@ So far I've tried a number of frameworks, and I am very comfortable with:
 <img height='100' src='https://camo.githubusercontent.com/a9ea3609073b5963d2bad83f79ffa23e1a79204e/68747470733a2f2f692e696d6775722e636f6d2f4e5635317438342e6a7067'>
 
 > What I like about the MEVN Stack
-- REST API with Express and GraphQl
+- REST API with _Express_ and _GraphQl_
 - VueJs' clear syntax - easy to understand
 - Quick project scaffolding
 
