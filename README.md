@@ -1,4 +1,4 @@
-Hello there, welcome to my GitHub profile
+# Hello there :wave:, welcome to my GitHub profile
 My name is Mugemana Michael Ghislain; I am an aspiring full stack developer with a particular interest in Node.js. I spend my free time on web development tweaking small projects. So far, I am comfortable working with the following stacks:
 
 ## 1. MERN stack (MongoDB, Express, React & Node.js)
