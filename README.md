@@ -1,26 +1,21 @@
-# Hi there :wave:, welcome to my Github profile
-My name is _Mugemana Michael Ghislain_ - I am currently pursuing a degree in software engineering. I started coding out of curiosity, nowadays I focus on web development. My coding journey started with _WordPress_ and _PhpBB_, later on I decided to move onto something more challenging.
+Hello there, welcome to my GitHub profile
+My name is Mugemana Michael Ghislain; I am an aspiring full stack developer with a particular interest in Node.js. I spend my free time on web development tweaking small projects. So far, I am comfortable working with the following stacks:
 
-## :sunglasses: What can I do?
-So far I've tried a number of frameworks, and I am very comfortable with:
+## 1. MERN stack (MongoDB, Express, React & Node.js)
+At first, I had a hard time structuring my Node projects until I stumbled upon a Udemy course - then things started coming into place. In the process, I learned different things such as;
 
-### 1. Laravel
-<img height='100' src='https://laravel.com/img/logotype.min.svg'>
+- Singe Page Apps (React & Vue)
+- Express REST & GraphQL APIs
+- JWT authentication
+- ORM (Sequelize & Mongoose)
+- Socket.io
 
-> What I like about Laravel
-- Full stack development framework - comes bundled with _Eloquent ORM_, _Blade template engine_...
-- Integrates easily with _Vue_ or _React_
-- Excellent documentation
+## 2. Laravel
+I started using PHP while working with WordPress and other CMSs. Later on, a friend introduced me to Laravel. My takeaway on Laravel:
 
-### 2. MEVN Stack (MongoDB, Express, Vue, NodeJs)
-<img height='100' src='https://camo.githubusercontent.com/a9ea3609073b5963d2bad83f79ffa23e1a79204e/68747470733a2f2f692e696d6775722e636f6d2f4e5635317438342e6a7067'>
+- Preinstalled tools (ORM, templating engine, SASS, Vue.js)
+- Extensive community support & documentation
+- Rigid project structure
 
-> What I like about the MEVN Stack
-- REST API with _Express_ and _GraphQl_
-- VueJs' clear syntax - easy to understand
-- Quick project scaffolding
-
-## What I am learning
-Currently I am trying to learn _Electron_
-
-<img height='100' src='https://www.bing.com/th?id=AMMS_fdbab683b2e8d918d68bdf22e65ef95a&w=110&h=110&c=7&rs=1&qlt=80&cdv=1&pid=16.1'>
+## 3. CodeIgniter
+I started using CodeIgniter as I was looking for a lightweight & fast alternative to Laravel, with fewer configurations and quick project setup. Nonetheless, It shares a lot of similarities with Laravel in terms of route definition, controllers, and views.
