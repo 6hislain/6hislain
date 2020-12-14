@@ -16,6 +16,3 @@ I started using PHP while working with WordPress and other CMSs. Later on, a fri
 - Extensive community support & documentation
 - Preinstalled tools (ORM, templating engine, SASS, Vue.js)
 - Rigid project structure
-
-## 3. CodeIgniter
-I came across CodeIgniter while looking for a lightweight & fast alternative to Laravel, with fewer configurations and quick project setup. Nonetheless, It shares a lot of similarities with Laravel in terms of route definition, controllers, and views.
