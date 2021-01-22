@@ -14,7 +14,7 @@ At first, I had a hard time structuring my Node projects until I stumbled upon a
 - ORM (Sequelize & Mongoose)
 - Socket.io
 
-## 2. Laravel
+## 2. Laravel via LEMP / LAMP stack (Linux, Nginx / Apache, MySql, Php)
 I started using PHP while working with WordPress and other CMSs. Later on, a friend introduced me to Laravel. My takeaway on Laravel:
 
 - Extensive community support & documentation
