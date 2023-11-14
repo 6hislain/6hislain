@@ -1,5 +1,1 @@
-# Hello there 👋
-
-Welcome to my github profile, my name is Mugemana Ghislain - I am an aspiring full stack developer. I spend my free time on web development tweaking small projects. Currently, I am focusing on:
-- Typescript
-- Flutter
+Hey there! 👋 Welcome to my GitHub profile! I'm Mugemana Ghislain, an enthusiastic full stack developer. When I'm not immersed in the world of code, you'll find me tweaking and tinkering with various web development projects. I believe in the power of continuous learning and am always up for a coding challenge. Feel free to explore my repository, and don't hesitate to drop a comment or open an issue if something catches your eye. Let's build something awesome together! 💻✨
