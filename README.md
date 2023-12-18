@@ -1,7 +1,5 @@
 # Hi 👋 My name is Mugemana Ghislain
 
-## Software Developer
-
 I am a self-taught software developer, I started coding out of curiosity, I wanted to figure out how mobile apps and websites work. I like to spend my free time on web development, tweaking small projects.
 
 - 🌍  I'm based in Kigali, Rwanda
