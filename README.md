@@ -5,8 +5,6 @@ I am a self-taught software developer, I started coding out of curiosity, I want
 - 🌍  I'm based in Kigali, Rwanda
 - 🖥️  See my portfolio at [6hislain.vercel.app](http://6hislain.vercel.app)
 - ✉️  You can contact me at [ghislainmike80@gmail.com](mailto:ghislainmike80@gmail.com)
-- 🚀  I'm currently working on [Tembera](http://github.com/6hislain/tembera)
-- 🧠  I'm learning TypeScript and Flutter
 - 🤝  I'm open to collaborating on web development
 
 ### Skills
