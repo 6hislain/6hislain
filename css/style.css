@@ -1,0 +1,22 @@
+@import url("https://fonts.cdnfonts.com/css/oak-sans");
+
+html,
+body {
+  font-family: "Oak Sans", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("../img/grey.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card {
+  border-radius: 1rem;
+}
+.card > .card-img-top {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
