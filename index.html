@@ -14,10 +14,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body data-bs-theme="dark">
+    <!-- START: loader -->
+    <div class="loader mx-auto min-vh-100 py-5" id="loader"></div>
     <!-- START: navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
       <div class="container-md">
@@ -85,7 +86,7 @@
     <!-- START: hero -->
     <section class="container">
       <div class="row">
-        <div class="col-md-7 my-auto" data-aos="zoom-in-right">
+        <div class="col-md-7 my-auto">
           <h1>
             Hello, I'm
             <span class="text-primary">Mugemana</span>
@@ -99,7 +100,7 @@
             Get in touch
           </a>
         </div>
-        <div class="col-md-5 my-4 py-4" data-aos="zoom-in-left">
+        <div class="col-md-5 my-4 py-4">
           <img
             src="/img/brown.jpg"
             class="rounded-circle mx-auto d-block"
@@ -114,7 +115,7 @@
     <section class="container">
       <div class="row justify-content-center">
         <div class="col-md-3">
-          <div class="card card-body p-4 mb-3" data-aos="fade-right">
+          <div class="card card-body p-4 mb-3">
             <div class="d-flex">
               <h4 class="display-4 me-4 my-0">20</h4>
               <div class="my-auto">
@@ -124,7 +125,7 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="card card-body p-4 mb-3" data-aos="zoom-out">
+          <div class="card card-body p-4 mb-3">
             <div class="d-flex">
               <h4 class="display-4 me-4 my-0">3</h4>
               <div class="my-auto">
@@ -134,7 +135,7 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="card card-body p-4 mb-3" data-aos="zoom-out">
+          <div class="card card-body p-4 mb-3">
             <div class="d-flex">
               <h4 class="display-4 me-4 my-0">20</h4>
               <div class="my-auto">
@@ -144,7 +145,7 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="card card-body p-4 mb-3" data-aos="fade-left">
+          <div class="card card-body p-4 mb-3">
             <div class="d-flex">
               <h4 class="display-4 me-4 my-0">3</h4>
               <div class="my-auto">
@@ -163,7 +164,7 @@
           <h6 class="display-6">Recent blog posts</h6>
         </div>
         <div class="col-md-3">
-          <div class="card mb-3" data-aos="flip-right">
+          <div class="card mb-3">
             <img src="/img/brown.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -175,7 +176,7 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="card mb-3" data-aos="zoom-in">
+          <div class="card mb-3">
             <img src="/img/blue.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -187,7 +188,7 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="card mb-3" data-aos="zoom-in">
+          <div class="card mb-3">
             <img src="/img/grey.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -199,7 +200,7 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="card mb-3" data-aos="flip-left">
+          <div class="card mb-3">
             <img src="/img/dark.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -219,7 +220,7 @@
           <h3 class="text-primary" id="contact">Contact</h3>
           <h6 class="display-6">I would like to hear from you</h6>
         </div>
-        <div class="col-md-5 my-4 py-4" data-aos="zoom-out-right">
+        <div class="col-md-5 my-4 py-4">
           <div class="d-flex">
             <i class="bi bi-geo-alt-fill display-4 me-4 my-0"></i>
             <div class="my-auto">
@@ -242,7 +243,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-7 my-4 py-4" data-aos="zoom-out-left">
+        <div class="col-md-7 my-4 py-4">
           <form action="#" method="post" class="row">
             <div class="col-6">
               <input
@@ -312,7 +313,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/js/script.js"></script>
   </body>
 </html>
