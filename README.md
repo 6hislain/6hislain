@@ -10,7 +10,7 @@ I am a self-taught software developer, I started coding out of curiosity, I want
 ### Skills
 
 <p align="left">
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
+  <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer" rel="noreferrer">
     <img
       src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg"
       width="36"
@@ -18,7 +18,7 @@ I am a self-taught software developer, I started coding out of curiosity, I want
       alt="TypeScript"
     />
   </a>
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+  <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer" rel="noreferrer">
     <img
       src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
       width="36"
@@ -26,7 +26,7 @@ I am a self-taught software developer, I started coding out of curiosity, I want
       alt="React"
     />
   </a>
-  <a href="https://vuejs.org/" target="_blank" rel="noreferrer">
+  <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer" rel="noreferrer">
     <img
       src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vuejs-colored.svg"
       width="36"
@@ -34,7 +34,7 @@ I am a self-taught software developer, I started coding out of curiosity, I want
       alt="Vue"
     />
   </a>
-  <a href="https://graphql.org/" target="_blank" rel="noreferrer">
+  <a href="https://graphql.org/" target="_blank" rel="noopener noreferrer" rel="noreferrer">
     <img
       src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/graphql-colored.svg"
       width="36"
@@ -42,7 +42,7 @@ I am a self-taught software developer, I started coding out of curiosity, I want
       alt="GraphQL"
     />
   </a>
-  <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer">
+  <a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer" rel="noreferrer">
     <img
       src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg"
       width="36"
@@ -50,7 +50,7 @@ I am a self-taught software developer, I started coding out of curiosity, I want
       alt="PostgreSQL"
     />
   </a>
-  <a href="https://laravel.com/" target="_blank" rel="noreferrer">
+  <a href="https://laravel.com/" target="_blank" rel="noopener noreferrer" rel="noreferrer">
     <img
       src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/laravel-colored.svg"
       width="36"
@@ -58,7 +58,7 @@ I am a self-taught software developer, I started coding out of curiosity, I want
       alt="Laravel"
     />
   </a>
-  <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer">
+  <a href="https://www.djangoproject.com/" target="_blank" rel="noopener noreferrer" rel="noreferrer">
     <img
       src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/django-colored.svg"
       width="36"
@@ -71,7 +71,7 @@ I am a self-taught software developer, I started coding out of curiosity, I want
 ### Socials
 
 <p align="left">
-  <a href="https://www.codepen.io/6hislain" target="_blank" rel="noreferrer">
+  <a href="https://www.codepen.io/6hislain" target="_blank" rel="noopener noreferrer" rel="noreferrer">
     <picture>
       <source
         media="(prefers-color-scheme: dark)"
@@ -92,7 +92,7 @@ I am a self-taught software developer, I started coding out of curiosity, I want
       />
     </picture>
   </a>
-  <a href="https://codesandbox.io/u/6hislain" target="_blank" rel="noreferrer">
+  <a href="https://codesandbox.io/u/6hislain" target="_blank" rel="noopener noreferrer" rel="noreferrer">
     <picture>
       <source
         media="(prefers-color-scheme: dark)"
@@ -113,7 +113,7 @@ I am a self-taught software developer, I started coding out of curiosity, I want
       />
     </picture>
   </a>
-  <a href="https://www.dev.to/6hislain" target="_blank" rel="noreferrer">
+  <a href="https://www.dev.to/6hislain" target="_blank" rel="noopener noreferrer" rel="noreferrer">
     <picture>
       <source
         media="(prefers-color-scheme: dark)"
@@ -134,7 +134,7 @@ I am a self-taught software developer, I started coding out of curiosity, I want
       />
     </picture>
   </a>
-  <a href="https://www.facebook.com/6hislain" target="_blank" rel="noreferrer">
+  <a href="https://www.facebook.com/6hislain" target="_blank" rel="noopener noreferrer" rel="noreferrer">
     <picture>
       <source
         media="(prefers-color-scheme: dark)"
@@ -155,7 +155,7 @@ I am a self-taught software developer, I started coding out of curiosity, I want
       />
     </picture>
   </a>
-  <a href="https://www.github.com/6hislain" target="_blank" rel="noreferrer">
+  <a href="https://www.github.com/6hislain" target="_blank" rel="noopener noreferrer" rel="noreferrer">
     <picture>
       <source
         media="(prefers-color-scheme: dark)"
@@ -178,7 +178,7 @@ I am a self-taught software developer, I started coding out of curiosity, I want
   </a>
   <a
     href="https://www.linkedin.com/in/6hislain"
-    target="_blank"
+    target="_blank" rel="noopener noreferrer"
     rel="noreferrer"
   >
     <picture>
@@ -201,7 +201,7 @@ I am a self-taught software developer, I started coding out of curiosity, I want
       />
     </picture>
   </a>
-  <a href="https://www.x.com/6hislain" target="_blank" rel="noreferrer">
+  <a href="https://www.x.com/6hislain" target="_blank" rel="noopener noreferrer" rel="noreferrer">
     <picture>
       <source
         media="(prefers-color-scheme: dark)"
@@ -222,7 +222,7 @@ I am a self-taught software developer, I started coding out of curiosity, I want
       />
     </picture>
   </a>
-  <a href="https://www.threads.net/@6hislain" target="_blank" rel="noreferrer">
+  <a href="https://www.threads.net/@6hislain" target="_blank" rel="noopener noreferrer" rel="noreferrer">
     <picture>
       <source
         media="(prefers-color-scheme: dark)"
