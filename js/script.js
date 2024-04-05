@@ -1,7 +1,9 @@
+// START: loader
 window.addEventListener("load", function () {
   document.getElementById("loader").style.display = "none";
 });
 
+// START: typing effect
 function type(i, t, ie, oe) {
   input = document.getElementById(ie).innerHTML;
   document.getElementById(oe).innerHTML += input.charAt(i);
@@ -11,3 +13,10 @@ function type(i, t, ie, oe) {
 }
 
 type(0, 200, "text", "screen");
+
+// START: color navbar on scroll down
+const nav = document.getElementById("navbar");
+window.onscroll = function () {
+  if (document.documentElement.scrollTop >= 300) nav.classList.add("bg-dark");
+  else nav.classList.remove("bg-dark");
+};
