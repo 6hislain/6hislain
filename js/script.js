@@ -20,3 +20,21 @@ window.onscroll = function () {
   if (document.documentElement.scrollTop >= 300) nav.classList.add("bg-dark");
   else nav.classList.remove("bg-dark");
 };
+
+// START: count up
+function countUp(target, id) {
+  let count = 0;
+  let duration = target * 300;
+  const interval = Math.floor(duration / target);
+  const timer = setInterval(() => {
+    count++;
+    document.getElementById(id).textContent = count;
+    if (count >= target) {
+      clearInterval(timer);
+    }
+  }, interval);
+}
+countUp(13, "projects");
+countUp(3, "languages");
+countUp(20, "repositories");
+countUp(3, "years");
