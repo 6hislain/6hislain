@@ -34,7 +34,3 @@ function countUp(target, id) {
     }
   }, interval);
 }
-countUp(13, "projects");
-countUp(3, "languages");
-countUp(20, "repositories");
-countUp(3, "years");
