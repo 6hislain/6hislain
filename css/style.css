@@ -11,7 +11,8 @@ body {
   background-image: linear-gradient(270deg, #000000 0%, #212121 74%);
 }
 
-.img-cover {
+.img-cover,
+.card-img-top {
   object-fit: cover;
 }
 
@@ -21,6 +22,9 @@ body {
 .card > .card-img-top {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
+}
+.card-img-top {
+  height: 10rem;
 }
 
 /* loader */
