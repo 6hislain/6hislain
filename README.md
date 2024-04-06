@@ -15,7 +15,7 @@ I am a self-taught software developer, I started coding out of curiosity, I want
       src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg"
       width="36"
       height="36"
-      alt="TypeScript"
+      loading='lazy' alt="TypeScript"
     />
   </a>
   <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer" rel="noreferrer">
@@ -23,7 +23,7 @@ I am a self-taught software developer, I started coding out of curiosity, I want
       src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
       width="36"
       height="36"
-      alt="React"
+      loading='lazy' alt="React"
     />
   </a>
   <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer" rel="noreferrer">
@@ -31,7 +31,7 @@ I am a self-taught software developer, I started coding out of curiosity, I want
       src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vuejs-colored.svg"
       width="36"
       height="36"
-      alt="Vue"
+      loading='lazy' alt="Vue"
     />
   </a>
   <a href="https://graphql.org/" target="_blank" rel="noopener noreferrer" rel="noreferrer">
@@ -39,7 +39,7 @@ I am a self-taught software developer, I started coding out of curiosity, I want
       src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/graphql-colored.svg"
       width="36"
       height="36"
-      alt="GraphQL"
+      loading='lazy' alt="GraphQL"
     />
   </a>
   <a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer" rel="noreferrer">
@@ -47,7 +47,7 @@ I am a self-taught software developer, I started coding out of curiosity, I want
       src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg"
       width="36"
       height="36"
-      alt="PostgreSQL"
+      loading='lazy' alt="PostgreSQL"
     />
   </a>
   <a href="https://laravel.com/" target="_blank" rel="noopener noreferrer" rel="noreferrer">
@@ -55,7 +55,7 @@ I am a self-taught software developer, I started coding out of curiosity, I want
       src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/laravel-colored.svg"
       width="36"
       height="36"
-      alt="Laravel"
+      loading='lazy' alt="Laravel"
     />
   </a>
   <a href="https://www.djangoproject.com/" target="_blank" rel="noopener noreferrer" rel="noreferrer">
@@ -63,7 +63,7 @@ I am a self-taught software developer, I started coding out of curiosity, I want
       src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/django-colored.svg"
       width="36"
       height="36"
-      alt="Django"
+      loading='lazy' alt="Django"
     />
   </a>
 </p>
