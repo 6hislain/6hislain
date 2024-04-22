@@ -27,6 +27,10 @@ body {
   height: 10rem;
 }
 
+.table-of-contents {
+  top: 5rem;
+}
+
 /* loader */
 .loader {
   width: 50px;
@@ -38,7 +42,10 @@ body {
   content: "";
   grid-area: 1/1;
   --c: no-repeat radial-gradient(farthest-side, #25b09b 92%, #0000);
-  background: var(--c) 50% 0, var(--c) 50% 100%, var(--c) 100% 50%,
+  background:
+    var(--c) 50% 0,
+    var(--c) 50% 100%,
+    var(--c) 100% 50%,
     var(--c) 0 50%;
   background-size: 12px 12px;
   animation: l12 1s infinite;
