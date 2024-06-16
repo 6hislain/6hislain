@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- START: meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Vue.js has emerged as a popular JavaScript framework for building web interfaces and single-page applications"
+    />
+    <meta
+      name="keywords"
+      content="portfolio, personal portfolio, web developer, projects, skills, experience"
+    />
+    <meta name="author" content="Mugemana Ghislain" />
+    <meta
+      property="og:image"
+      content="https://wallpaperaccess.com/full/4584345.png"
+    />
+    <meta property="og:title" content="Vue.js: A Quick Overview - @6hislain" />
+    <meta
+      property="og:description"
+      content="Vue.js has emerged as a popular JavaScript framework for building web interfaces and single-page applications"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Vue.js: A Quick Overview - @6hislain" />
+    <meta
+      name="twitter:description"
+      content="Vue.js has emerged as a popular JavaScript framework for building web interfaces and single-page applications"
+    />
+    <meta
+      name="twitter:image"
+      content="https://wallpaperaccess.com/full/4584345.png"
+    />
+    <title>Vue.js: A Quick Overview - @6hislain</title>
+    <!-- START: links -->
+    <link rel="icon" href="../img/favicon.png" type="image/png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body data-bs-theme="dark">
+    <!-- START: loader -->
+    <div class="loader mx-auto min-vh-100 py-5" id="loader"></div>
+    <!-- START: navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="navbar">
+      <div class="container-md">
+        <a class="navbar-brand" href="#">@6hislain</a>
+        <button
+          class="navbar-toggler rounded-pill"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link" href="/#about">About</a>
+            <a class="nav-link" href="/#resume">Resume</a>
+            <a class="nav-link" href="/#portfolio">Portfolio</a>
+            <a class="nav-link" href="/blog">Blog</a>
+            <a class="nav-link" href="/#course">Courses</a>
+            <a class="nav-link" href="/freebie">Freebies</a>
+            <a class="nav-link" href="/#contact">Contact</a>
+          </div>
+          <div class="d-flex ms-1">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://twitter.com/6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-github"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://linkedin.com/in/6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://wa.me/250787697260"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-whatsapp"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://fb.me/6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://reddit.com/u/6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-reddit"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://elk.zone/mastodon.social/@6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-mastodon"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://bio.link/6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-globe"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- START: article -->
+    <section class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 my-3">
+          <div class="text-center">
+            <img
+              src="https://wallpaperaccess.com/full/4584345.png"
+              loading="lazy"
+              class="rounded w-75"
+              alt="article title"
+            />
+            <h1 class="text-success mt-4" id="screen">
+              <span id="text" class="d-none">Vue.js: A Quick Overview</span>
+            </h1>
+            <p class="lead">Review &middot; May 2, 2024</p>
+          </div>
+          <p id="introduction">
+            Vue.js has emerged as a popular JavaScript framework for building
+            web interfaces and single-page applications. Its progressive nature
+            allows for building small to large scale applications with ease.
+            Let's delve into the pros and cons of Vue.js and explore some
+            valuable resources for developers interested in this dynamic
+            framework.
+          </p>
+          <h3 id="pros">Pros of Vue.js</h3>
+          <p id="integration">
+            <b>1. Ease of Integration</b>: Vue.js is known for its ease of
+            integration with existing projects, which is particularly beneficial
+            for developers working on single-page applications.
+          </p>
+          <p id="learning-curve">
+            <b>2. Simplicity and Learning Curve</b>: With an intuitive API and
+            detailed documentation, Vue.js offers a gentle learning curve. Its
+            simplicity is one of its most significant advantages, allowing
+            developers to pick up the framework quickly.
+          </p>
+          <p id="performance">
+            <b>3. Performance</b>: Vue.js ensures high performance due to its
+            small size and efficient change detection mechanisms. It utilizes a
+            virtual DOM to minimize direct manipulation of the DOM, which can be
+            a performance bottleneck.
+          </p>
+          <p id="flexibility">
+            <b>4. Flexibility</b>: The framework is flexible and can be used for
+            a vast array of projects, from small widgets to large-scale
+            enterprise applications.
+          </p>
+          <p id="community">
+            <b>5. Community Support</b>: Despite not being backed by a large
+            corporation, Vue.js has a strong community and ecosystem, with
+            numerous resources available for learning and troubleshooting.
+          </p>
+          <h3 id="cons">Cons of Vue.js</h3>
+          <p id="market-share">
+            <b>1. Market Share</b>: While Vue.js is popular, it still lags
+            behind frameworks like React and Angular in terms of market share
+            and job opportunities.
+          </p>
+          <p id="adoption">
+            <b>2. Enterprise Adoption</b>: Large enterprises may prefer more
+            established frameworks backed by big companies, which can be a
+            hurdle for Vue.js in terms of widespread adoption.
+          </p>
+          <p id="language-barrier">
+            <b>3. Language Barrier</b>: The majority of documentation and
+            community support is available in English, which can be a barrier
+            for non-English speaking developers.
+          </p>
+          <h3 id="resources">Resources for Vue.js Developers</h3>
+          <p id="documentation">
+            <b>1. Official Documentation</b>: The Vue.js official website
+            provides comprehensive guides, API references, and tutorials for all
+            skill levels.
+          </p>
+          <p id="forum">
+            <b>2. Community Forums</b>: Platforms like the DEV Community offer
+            discussions, articles, and tips from fellow Vue.js developers.
+          </p>
+          <p id="online-course">
+            <b>3. Online Courses</b>: Websites like Vue Mastery offer video
+            tutorials and articles, making it easier for developers to learn
+            Vue.js at their own pace.
+          </p>
+          <p id="conclusion">
+            In conclusion, Vue.js stands out for its simplicity, performance,
+            and flexibility. While it faces challenges in market share and
+            enterprise adoption, the framework continues to grow in popularity.
+            For developers looking to dive into Vue.js, the wealth of resources
+            available makes it an accessible and appealing option.
+          </p>
+          <p>
+            For those interested in exploring Vue.js further, the official
+            Vue.js documentation is an excellent starting point, offering
+            everything from basic tutorials to in-depth guides on advanced
+            topics. Happy coding!
+          </p>
+          <div class="sharethis-sticky-share-buttons"></div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="table-of-contents d-none d-md-block sticky-top">
+            <div class="card">
+              <div class="card-header">Table of Contents</div>
+              <div class="card-body">
+                <ul>
+                  <li><a href="#introduction">Introduction</a></li>
+                  <li>
+                    <a href="#pros">Pros of Vue.js</a>
+                    <ul>
+                      <li><a href="#integration">Ease of Integration</a></li>
+                      <li>
+                        <a href="#learning-curve">
+                          Simplicity & Learning Curve
+                        </a>
+                      </li>
+                      <li><a href="#performance">Performance</a></li>
+                      <li><a href="#flexibility">Flexibility</a></li>
+                      <li><a href="#community">Community Support</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#cons">Cons of Vue.js</a>
+                    <ul>
+                      <li><a href="#market-share">Market Share</a></li>
+                      <li>
+                        <a href="#adoption"> Enterprise Adoption </a>
+                      </li>
+                      <li><a href="#language-barrier">Language Barrier</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#resources">Resources for Vue.js</a>
+                    <ul>
+                      <li>
+                        <a href="#documentation">Official Documentation</a>
+                      </li>
+                      <li>
+                        <a href="#forum">Community Forums</a>
+                      </li>
+                      <li><a href="#online-course">Online Courses</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#conclusion">Conclusion</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- START: footer -->
+    <footer class="text-center my-4 py-4">
+      <i class="bi bi-code-slash me-1"></i> with
+      <i class="bi bi-heart-fill text-danger mx-1"></i> by
+      <a
+        class="text-decoration-none"
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://bio.link/6hislain"
+      >
+        @6hislain
+      </a>
+    </footer>
+    <!-- START: scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://platform-api.sharethis.com/js/sharethis.js#property=6626470ca87684001ac2236d&product=sticky-share-buttons&source=platform"
+      async="async"
+    ></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
