@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- START: meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Vue.js has emerged as a popular JavaScript framework for building web interfaces and single-page applications"
+    />
+    <meta
+      name="keywords"
+      content="portfolio, personal portfolio, web developer, projects, skills, experience"
+    />
+    <meta name="author" content="Mugemana Ghislain" />
+    <meta
+      property="og:image"
+      content="https://ensocore.com/media/87/fece433e54f817872309273fb46fe6e9.jpg"
+    />
+    <meta
+      property="og:title"
+      content="Exploring Laravel: Advantages, Disadvantages, and Resources - @6hislain"
+    />
+    <meta
+      property="og:description"
+      content="Vue.js has emerged as a popular JavaScript framework for building web interfaces and single-page applications"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Exploring Laravel: Advantages, Disadvantages, and Resources - @6hislain"
+    />
+    <meta
+      name="twitter:description"
+      content="Vue.js has emerged as a popular JavaScript framework for building web interfaces and single-page applications"
+    />
+    <meta
+      name="twitter:image"
+      content="https://ensocore.com/media/87/fece433e54f817872309273fb46fe6e9.jpg"
+    />
+    <title>
+      Exploring Laravel: Advantages, Disadvantages, and Resources - @6hislain
+    </title>
+    <!-- START: links -->
+    <link rel="icon" href="../img/favicon.png" type="image/png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body data-bs-theme="dark">
+    <!-- START: loader -->
+    <div class="loader mx-auto min-vh-100 py-5" id="loader"></div>
+    <!-- START: navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="navbar">
+      <div class="container-md">
+        <a class="navbar-brand" href="#">@6hislain</a>
+        <button
+          class="navbar-toggler rounded-pill"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link" href="/#about">About</a>
+            <a class="nav-link" href="/#resume">Resume</a>
+            <a class="nav-link" href="/#portfolio">Portfolio</a>
+            <a class="nav-link" href="/blog">Blog</a>
+            <a class="nav-link" href="/#course">Courses</a>
+            <a class="nav-link" href="/freebie">Freebies</a>
+            <a class="nav-link" href="/#contact">Contact</a>
+          </div>
+          <div class="d-flex ms-1">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://twitter.com/6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-github"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://linkedin.com/in/6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://wa.me/250787697260"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-whatsapp"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://fb.me/6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://reddit.com/u/6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-reddit"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://elk.zone/mastodon.social/@6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-mastodon"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://bio.link/6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-globe"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- START: article -->
+    <section class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 my-3">
+          <div class="text-center">
+            <img
+              src="https://ensocore.com/media/87/fece433e54f817872309273fb46fe6e9.jpg"
+              loading="lazy"
+              class="rounded w-75"
+              alt="article title"
+            />
+            <h1 class="text-success mt-4" id="screen">
+              <span id="text" class="d-none">
+                Exploring Laravel: Advantages, Disadvantages, and Resources
+              </span>
+            </h1>
+            <p class="lead">Review &middot; March 5, 2024</p>
+          </div>
+          <p id="introduction">
+            Laravel, a robust PHP framework, has been a topic of interest for
+            web developers since its introduction. It's known for its elegant
+            syntax and provides a foundation for both small and large-scale
+            applications. In this article, we'll delve into the pros and cons of
+            using Laravel and provide resources for those interested in learning
+            more about this versatile framework.
+          </p>
+          <h3 id="advantages">Advantages of Laravel</h3>
+          <p id="coding">
+            <b>1. Simplicity in Coding</b>: One of the most significant
+            advantages of Laravel is its simplicity in coding. The framework
+            comes with an extensive library of pre-programmed functionalities,
+            which reduces the amount of coding required, making it easier to
+            build robust web applications.
+          </p>
+          <p id="scalability">
+            <b>2. Scalability</b>: Laravel is highly scalable, which means it
+            can handle projects of varying sizes, from small to medium-sized web
+            applications. This flexibility is a boon for developers who work on
+            diverse projects.
+          </p>
+          <p id="security">
+            <b>3. Security</b>: Security is a top priority in web development,
+            and Laravel offers a secure built-in access control system. It also
+            allows for encrypted password storage, adding an extra layer of
+            protection.
+          </p>
+          <h3 id="disadvantages">Disadvantages of Laravel</h3>
+          <p id="development-cost">
+            <b>1. Cost of Development</b>: One potential drawback of using
+            Laravel is the cost associated with hiring skilled developers.
+            Laravel experts may command higher salaries due to their specialized
+            knowledge.
+          </p>
+          <p id="support">
+            <b>2. Support and Updates</b>: While Laravel has a strong community,
+            the level of support can vary. Additionally, the framework requires
+            frequent updates, which can be a downside for some developers.
+          </p>
+          <p id="performance">
+            <b>3. Performance</b>: In some cases, Laravel's performance may not
+            be as fast as other frameworks, which could be a consideration for
+            time-sensitive projects.
+          </p>
+          <h3 id="resources">Resources for Laravel</h3>
+          <p>
+            For those looking to dive deeper into Laravel, there are numerous
+            resources available:
+          </p>
+          <p id="documentation">
+            <b>1. Official Documentation</b>: Laravel's official documentation
+            is comprehensive and a great starting point for new learners.
+          </p>
+          <p id="community">
+            <b>2. Online Communities</b>: Engaging with the Laravel community
+            through forums and social media can provide real-world insights and
+            troubleshooting tips.
+          </p>
+          <p id="courses">
+            <b>3. Tutorials and Courses</b>: There are many online platforms
+            offering tutorials and courses on Laravel, catering to different
+            levels of expertise.
+          </p>
+          <p id="books">
+            <b>4. Books</b>: Several books have been written on Laravel,
+            providing in-depth knowledge and best practices.
+          </p>
+          <p id="conclusion">
+            In conclusion, Laravel stands out as a powerful tool for web
+            development, offering ease of use and a rich set of features.
+            However, it's essential to weigh its disadvantages, such as
+            performance considerations and the potential cost of development.
+            With a wealth of resources available, developers can easily get
+            started with Laravel and continue to grow their skills in this
+            framework. Whether you're a beginner or an experienced developer,
+            Laravel has something to offer for everyone interested in modern web
+            application development.
+          </p>
+          <div class="sharethis-sticky-share-buttons"></div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="table-of-contents d-none d-md-block sticky-top">
+            <div class="card">
+              <div class="card-header">Table of Contents</div>
+              <div class="card-body">
+                <ul>
+                  <li><a href="#introduction">Introduction</a></li>
+                  <li>
+                    <a href="#advantages">Advantages of Laravel</a>
+                    <ul>
+                      <li><a href="#coding">Simplicity in Coding</a></li>
+                      <li><a href="#scalability">Scalability</a></li>
+                      <li><a href="#security">Security</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#disadvantages">Disadvantages of Laravel</a>
+                    <ul>
+                      <li>
+                        <a href="#development-cost">Cost of Development</a>
+                      </li>
+                      <li>
+                        <a href="#support">Support and Updates</a>
+                      </li>
+                      <li><a href="#performance">Performance</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#resources">Resources for Laravel</a>
+                    <ul>
+                      <li>
+                        <a href="#documentation">Official Documentation</a>
+                      </li>
+                      <li>
+                        <a href="#community">Online Communities</a>
+                      </li>
+                      <li><a href="#courses">Tutorials and Courses</a></li>
+                      <li><a href="#books">Books</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#conclusion">Conclusion</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- START: footer -->
+    <footer class="text-center my-4 py-4">
+      <i class="bi bi-code-slash me-1"></i> with
+      <i class="bi bi-heart-fill text-danger mx-1"></i> by
+      <a
+        class="text-decoration-none"
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://bio.link/6hislain"
+      >
+        @6hislain
+      </a>
+    </footer>
+    <!-- START: scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://platform-api.sharethis.com/js/sharethis.js#property=6626470ca87684001ac2236d&product=sticky-share-buttons&source=platform"
+      async="async"
+    ></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
