@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- START: meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="in-memory data structure store, used as a database, cache, and message broker"
+    />
+    <meta
+      name="keywords"
+      content="portfolio, personal portfolio, web developer, projects, skills, experience"
+    />
+    <meta name="author" content="Mugemana Ghislain" />
+    <meta
+      property="og:image"
+      content="https://sourcetoad.com/wp-content/uploads/2023/10/redis-1.png"
+    />
+    <meta
+      property="og:title"
+      content="Redis: The High-Speed Data Handler - @6hislain"
+    />
+    <meta
+      property="og:description"
+      content="in-memory data structure store, used as a database, cache, and message broker"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Redis: The High-Speed Data Handler - @6hislain"
+    />
+    <meta
+      name="twitter:description"
+      content="in-memory data structure store, used as a database, cache, and message broker"
+    />
+    <meta
+      name="twitter:image"
+      content="https://sourcetoad.com/wp-content/uploads/2023/10/redis-1.png"
+    />
+    <title>Redis: The High-Speed Data Handler - @6hislain</title>
+    <!-- START: links -->
+    <link rel="icon" href="../img/favicon.png" type="image/png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body data-bs-theme="dark">
+    <!-- START: loader -->
+    <div class="loader mx-auto min-vh-100 py-5" id="loader"></div>
+    <!-- START: navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="navbar">
+      <div class="container-md">
+        <a class="navbar-brand" href="#">@6hislain</a>
+        <button
+          class="navbar-toggler rounded-pill"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link" href="/#about">About</a>
+            <a class="nav-link" href="/#resume">Resume</a>
+            <a class="nav-link" href="/#portfolio">Portfolio</a>
+            <a class="nav-link" href="/blog">Blog</a>
+            <a class="nav-link" href="/#course">Courses</a>
+            <a class="nav-link" href="/freebie">Freebies</a>
+            <a class="nav-link" href="/#contact">Contact</a>
+          </div>
+          <div class="d-flex ms-1">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://twitter.com/6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-github"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://linkedin.com/in/6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://wa.me/250787697260"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-whatsapp"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://fb.me/6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://reddit.com/u/6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-reddit"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://elk.zone/mastodon.social/@6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-mastodon"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://bio.link/6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-globe"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- START: article -->
+    <section class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 my-3">
+          <div class="text-center">
+            <img
+              src="https://sourcetoad.com/wp-content/uploads/2023/10/redis-1.png"
+              loading="lazy"
+              class="rounded w-75"
+              alt="article title"
+            />
+            <h1 class="text-success mt-4" id="screen">
+              <span id="text" class="d-none">
+                Redis: The High-Speed Data Handler
+              </span>
+            </h1>
+            <p class="lead">Review &middot; July 6, 2024</p>
+          </div>
+          <p id="introduction">
+            Redis, standing for Remote Dictionary Server, is an open-source,
+            in-memory data structure store, used as a database, cache, and
+            message broker. It's known for its speed, making it a popular choice
+            for high-performance applications.
+          </p>
+          <h3 id="pros">Pros of Redis</h3>
+          <ol>
+            <li>
+              <b>Speed: </b> Redis operates in-memory, which means it can read
+              and write data at lightning speed compared to disk-based
+              databases.
+            </li>
+            <li>
+              <b>Data Structures: </b> It supports a wide array of data
+              structures like strings, hashes, lists, sets, sorted sets with
+              range queries, bitmaps, hyperloglogs, and geospatial indexes.
+            </li>
+            <li>
+              <b>Scalability: </b> It can be scaled horizontally, which is a
+              boon for growing applications.
+            </li>
+            <li>
+              <b>Persistence: </b> Offers options like RDB and AOF for data
+              durability.
+            </li>
+            <li>
+              <b>Atomic Operations: </b> Supports transactions which are atomic,
+              allowing multiple operations to be executed as a single unit.
+            </li>
+          </ol>
+          <h3 id="cons">Cons of Redis</h3>
+          <ol>
+            <li>
+              <b>Memory Limitation: </b> Since it's an in-memory store, the
+              amount of data it can handle is limited by the server's memory.
+            </li>
+            <li>
+              <b>Persistence Overhead: </b> The persistence mechanisms can add
+              overhead and complexity.
+            </li>
+            <li>
+              <b>No Query Language: </b> Unlike RDBMS, Redis doesn't have a
+              query language, which can limit the types of operations you can
+              perform.
+            </li>
+            <li>
+              <b>Security: </b> Basic security features, which may not be
+              sufficient for all use cases.
+            </li>
+          </ol>
+          <h3 id="recommendation">Recommendations for Using Redis</h3>
+          <ul>
+            <li>
+              Use Redis when you need high-speed operations and can fit your
+              dataset entirely in memory.
+            </li>
+            <li>
+              Consider other databases if your application requires complex
+              queries or transactions.
+            </li>
+            <li>
+              For scaling, look into sharding and Redis clusters to distribute
+              the load.
+            </li>
+            <li>
+              Always monitor your memory usage to prevent issues with data loss
+              or performance.
+            </li>
+          </ul>
+          <h3 id="resources">Resources to Learn More About Redis</h3>
+          <ul>
+            <li>
+              The official Redis documentation is a great place to start,
+              offering a comprehensive guide to installation, configuration, and
+              commands.
+            </li>
+            <li>
+              For those looking to integrate Redis with AI, the curated list of
+              code recipes and demos on GitHub can be quite insightful.
+            </li>
+            <li>
+              To understand best practices and performance tuning, the Redis
+              best practices guide provides expert tips for high performance.
+            </li>
+          </ul>
+          <p>
+            Redis is a powerful tool that, when used correctly, can
+            significantly enhance the performance of your applications. However,
+            it's important to understand its limitations and use it where it
+            fits best. With the right knowledge and resources, Redis can be a
+            valuable asset in your technology stack.
+          </p>
+          <div class="sharethis-sticky-share-buttons"></div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="table-of-contents d-none d-md-block sticky-top">
+            <div class="card">
+              <div class="card-header">Table of Contents</div>
+              <div class="card-body">
+                <ul>
+                  <li><a href="#introduction">Introduction</a></li>
+                  <li><a href="#pros">Pros of Redis</a></li>
+                  <li><a href="#cons">Cons of Redis</a></li>
+                  <li><a href="#recommendation">Recommendation</a></li>
+                  <li><a href="#resources">Resources</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- START: footer -->
+    <footer class="text-center my-4 py-4">
+      <i class="bi bi-code-slash me-1"></i> with
+      <i class="bi bi-heart-fill text-danger mx-1"></i> by
+      <a
+        class="text-decoration-none"
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://bio.link/6hislain"
+      >
+        @6hislain
+      </a>
+    </footer>
+    <!-- START: scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://platform-api.sharethis.com/js/sharethis.js#property=6626470ca87684001ac2236d&product=sticky-share-buttons&source=platform"
+      async="async"
+    ></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
