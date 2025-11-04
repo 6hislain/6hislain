@@ -2,7 +2,7 @@
 
 I am a self-taught software developer, I started coding out of curiosity, I wanted to figure out how mobile apps and websites work. I like to spend my free time on web development, tweaking small projects.
 
-- 🌍  I'm based in Kigali, Rwanda
+- 🌍  I'm based in Alberta, Canada
 - 🖥️  See my portfolio at [6hislain.vercel.app](http://6hislain.vercel.app)
 - ✉️  You can contact me at [ghislainmike80@gmail.com](mailto:ghislainmike80@gmail.com)
 - 🤝  I'm open to collaborating on web development
@@ -67,7 +67,7 @@ I am a self-taught software developer, I started coding out of curiosity, I want
     />
   </a>
 </p>
-          
+
 ### Socials
 
 <p align="left">

@@ -1,849 +1,1201 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <!-- START: meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Welcome to my personal portfolio, here you can find information about my skills, projects, experience..."
+    />
+    <meta
+      name="keywords"
+      content="portfolio, personal portfolio, web developer, projects, skills, experience"
+    />
+    <meta name="author" content="Mugemana Ghislain" />
+    <meta property="og:image" content="/img/favicon.png" />
+    <meta property="og:title" content="@6hislain - Portfolio" />
+    <meta
+      property="og:description"
+      content="Welcome to my personal portfolio, here you can find information about my skills, projects, experience..."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="@6hislain - Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Welcome to my personal portfolio, here you can find information about my skills, projects, experience..."
+    />
+    <meta name="twitter:image" content="/img/favicon.png" />
+    <title>Portfolio - @6hislain</title>
+    <!-- START: links -->
+    <link rel="icon" href="/img/favicon.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
 
-<head>
-  <!-- START: meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description"
-    content="Welcome to my personal portfolio, here you can find information about my skills, projects, experience..." />
-  <meta name="keywords" content="portfolio, personal portfolio, web developer, projects, skills, experience" />
-  <meta name="author" content="Mugemana Ghislain" />
-  <meta property="og:image" content="/img/favicon.png" />
-  <meta property="og:title" content="@6hislain - Portfolio" />
-  <meta property="og:description"
-    content="Welcome to my personal portfolio, here you can find information about my skills, projects, experience..." />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="@6hislain - Portfolio" />
-  <meta name="twitter:description"
-    content="Welcome to my personal portfolio, here you can find information about my skills, projects, experience..." />
-  <meta name="twitter:image" content="/img/favicon.png" />
-  <title>Portfolio - @6hislain</title>
-  <!-- START: links -->
-  <link rel="icon" href="/img/favicon.png" type="image/png" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
-  <link href="/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/style.css" />
-</head>
-
-<body data-bs-theme="dark">
-  <!-- START: loader -->
-  <div class="loader mx-auto min-vh-100 py-5" id="loader"></div>
-  <!-- START: navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="navbar">
-    <div class="container-md">
-      <a class="navbar-brand" href="#">@6hislain</a>
-      <button class="navbar-toggler rounded-pill" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ms-auto">
-          <a class="nav-link" href="/">Home</a>
-          <a class="nav-link" href="/#about">About</a>
-          <a class="nav-link" href="/#resume">Resume</a>
-          <a class="nav-link" href="/#portfolio">Portfolio</a>
-          <a class="nav-link" href="/blog">Blog</a>
-          <a class="nav-link" href="/#course">Courses</a>
-          <a class="nav-link" href="/#contact">Contact</a>
+  <body data-bs-theme="dark">
+    <!-- START: loader -->
+    <div class="loader mx-auto min-vh-100 py-5" id="loader"></div>
+    <!-- START: navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="navbar">
+      <div class="container-md">
+        <a class="navbar-brand" href="#">@6hislain</a>
+        <button
+          class="navbar-toggler rounded-pill"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link" href="/#about">About</a>
+            <a class="nav-link" href="/#resume">Resume</a>
+            <a class="nav-link" href="/#portfolio">Portfolio</a>
+            <a class="nav-link" href="/blog">Blog</a>
+            <a class="nav-link" href="/#course">Courses</a>
+            <a class="nav-link" href="/#contact">Contact</a>
+          </div>
+          <div class="d-flex ms-1">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://twitter.com/6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-github"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://linkedin.com/in/6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://wa.me/250787697260"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-whatsapp"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://fb.me/6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://reddit.com/u/6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-reddit"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://elk.zone/mastodon.social/@6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-mastodon"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://bio.link/6hislain"
+              class="btn btn-dark btn-sm rounded-circle me-1"
+            >
+              <i class="bi bi-globe"></i>
+            </a>
+          </div>
         </div>
-        <div class="d-flex ms-1">
-          <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/6hislain"
-            class="btn btn-dark btn-sm rounded-circle me-1">
-            <i class="bi bi-twitter"></i>
-          </a>
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/6hislain"
-            class="btn btn-dark btn-sm rounded-circle me-1">
-            <i class="bi bi-github"></i>
-          </a>
-          <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/6hislain"
-            class="btn btn-dark btn-sm rounded-circle me-1">
-            <i class="bi bi-linkedin"></i>
-          </a>
-          <a target="_blank" rel="noopener noreferrer" href="https://wa.me/250787697260"
-            class="btn btn-dark btn-sm rounded-circle me-1">
-            <i class="bi bi-whatsapp"></i>
-          </a>
-          <a target="_blank" rel="noopener noreferrer" href="https://fb.me/6hislain"
-            class="btn btn-dark btn-sm rounded-circle me-1">
-            <i class="bi bi-facebook"></i>
-          </a>
-          <a target="_blank" rel="noopener noreferrer" href="https://reddit.com/u/6hislain"
-            class="btn btn-dark btn-sm rounded-circle me-1">
-            <i class="bi bi-reddit"></i>
-          </a>
-          <a target="_blank" rel="noopener noreferrer" href="https://elk.zone/mastodon.social/@6hislain"
-            class="btn btn-dark btn-sm rounded-circle me-1">
-            <i class="bi bi-mastodon"></i>
-          </a>
-          <a target="_blank" rel="noopener noreferrer" href="https://bio.link/6hislain"
-            class="btn btn-dark btn-sm rounded-circle me-1">
-            <i class="bi bi-globe"></i>
-          </a>
-        </div>
       </div>
-    </div>
-  </nav>
-  <!-- START: hero -->
-  <section class="container">
-    <div class="row">
-      <div class="col-md-7 my-auto">
-        <h1>
-          Hello, I'm
-          <span class="text-primary">Mugemana</span>
-          <span class="text-warning">Michael</span>
-          <span class="text-success">Ghislain</span>
-        </h1>
-        <p class="lead">
-          <span id="screen"></span>|
-          <span id="text" class="d-none">
-            A self-taught software developer, I like spending my free time on
-            web development tweaking small projects.
-          </span>
-        </p>
-        <a href="#contact" class="btn btn-lg btn-success rounded-pill my-3">
-          Get in touch
-        </a>
-      </div>
-      <div class="col-md-5 my-4 py-4">
-        <img src="/img/6hislain.png" class="rounded-circle mx-auto d-block img-cover" height="320" width="320"
-          loading="lazy" alt="6hislain" />
-      </div>
-    </div>
-  </section>
-  <!-- START: about -->
-  <section class="container" id="about">
-    <div class="row justify-content-center">
-      <div class="col-12 mt-4 pt-4 mb-2 pb-2 text-center">
-        <h3 class="text-success">About Me</h3>
-        <h6 class="display-6">How I started & what I do</h6>
-      </div>
-      <div class="col-md-8 mb-3">
-        <p>
-          I started coding out of curiosity, I wanted to figure out how mobile
-          apps and websites work. I like working on software, and feeling a
-          sense of accomplishment when something I made is used by clients or
-          users.
-        </p>
-        <ul>
-          <li>Located in Kigali, Rwanda</li>
-          <li>Spoken languages: English, Francais, Kiswahili, Kinyarwanda</li>
-          <li>Open to freelance work</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <!-- START: services -->
-  <section class="container" id="service">
-    <div class="row justify-content-center">
-      <div class="col-12 mt-2 pt-2 text-center">
-        <h3 class="text-success">Services</h3>
-        <h6 class="display-6">What can I offer</h6>
-      </div>
-      <div class="col-md-4">
-        <div class="card card-body text-center my-3">
-          <i class="bi bi-browser-chrome display-4"></i>
-          <h5 class="card-title">Web Development</h5>
-          <p class="card-text">
-            I am familiar with Laravel, Django, and Nodejs. Get in touch if
-            you need a website
+    </nav>
+    <!-- START: hero -->
+    <section class="container">
+      <div class="row">
+        <div class="col-md-7 my-auto">
+          <h1>
+            Hello, I'm
+            <span class="text-primary">Mugemana</span>
+            <span class="text-warning">Michael</span>
+            <span class="text-success">Ghislain</span>
+          </h1>
+          <p class="lead">
+            <span id="screen"></span>|
+            <span id="text" class="d-none">
+              A self-taught software developer, I like spending my free time on
+              web development tweaking small projects.
+            </span>
           </p>
+          <a href="#contact" class="btn btn-lg btn-success rounded-pill my-3">
+            Get in touch
+          </a>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card card-body text-center my-3">
-          <i class="bi bi-person-vcard display-4"></i>
-          <h5 class="card-title">Consultancy</h5>
-          <p class="card-text">
-            I occasionally do web hosting, article writing, code testing,
-            content creation, etc
-          </p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card card-body text-center my-3">
-          <i class="bi bi-android2 display-4"></i>
-          <h5 class="card-title">Mobile App</h5>
-          <p class="card-text">
-            I prefer to use Flutter to make mobile apps. It has good support
-            and performance
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- START: resume -->
-  <section class="container" id="resume">
-    <div class="row justify-content-center">
-      <div class="col-12 mt-4 pt-4 mb-2 pb-2 text-center">
-        <h3 class="text-success">Resume</h3>
-        <h6 class="display-6">4+ years of experience</h6>
-      </div>
-      <div class="col-12">
-        <!-- Timeline Area-->
-        <div class="apland-timeline-area">
-          <!-- Education -->
-          <div class="single-timeline-area">
-            <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="
-                  visibility: visible;
-                  animation-delay: 0.1s;
-                  animation-name: fadeInLeft;
-                ">
-              <p>Education</p>
-            </div>
-            <div class="row">
-              <div class="col-12 col-md-6 col-lg-4">
-                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="
-                      visibility: visible;
-                      animation-delay: 0.3s;
-                      animation-name: fadeInLeft;
-                    ">
-                  <div class="timeline-icon">
-                    <i class="bi bi-person-workspace" aria-hidden="true"></i>
-                  </div>
-                  <div class="timeline-text">
-                    <h6>Bsc in Software Engineering</h6>
-                    <p>
-                      Adventist University of Central Africa <br />
-                      <a href="http://auca.ac.rw" target="_blank" rel="noopener noreferrer">
-                        auca.ac.rw
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Skills -->
-          <div class="single-timeline-area">
-            <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="
-                  visibility: visible;
-                  animation-delay: 0.1s;
-                  animation-name: fadeInLeft;
-                ">
-              <p>Skills</p>
-            </div>
-            <div class="row">
-              <div class="col-12 col-md-6 col-lg-4">
-                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="
-                      visibility: visible;
-                      animation-delay: 0.3s;
-                      animation-name: fadeInLeft;
-                    ">
-                  <div class="timeline-icon">
-                    <i class="bi bi-7-square" aria-hidden="true"></i>
-                  </div>
-                  <div class="timeline-text">
-                    <h6>Laravel</h6>
-                    <p>
-                      The first web framework I learnt. Learned about MVC,
-                      API, etc
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-md-6 col-lg-4">
-                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style="
-                      visibility: visible;
-                      animation-delay: 0.5s;
-                      animation-name: fadeInLeft;
-                    ">
-                  <div class="timeline-icon">
-                    <i class="bi bi-diamond-half" aria-hidden="true"></i>
-                  </div>
-                  <div class="timeline-text">
-                    <h6>Nodejs</h6>
-                    <p>
-                      Introduced to Nodejs through Vue.js by using Laravel
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-md-6 col-lg-4">
-                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style="
-                      visibility: visible;
-                      animation-delay: 0.5s;
-                      animation-name: fadeInLeft;
-                    ">
-                  <div class="timeline-icon">
-                    <i class="bi bi-terminal" aria-hidden="true"></i>
-                  </div>
-                  <div class="timeline-text">
-                    <h6>Django</h6>
-                    <p>
-                      Used Django in projects that required data science and
-                      python
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Experience-->
-          <div class="single-timeline-area">
-            <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="
-                  visibility: visible;
-                  animation-delay: 0.1s;
-                  animation-name: fadeInLeft;
-                ">
-              <p>Experience</p>
-            </div>
-            <div class="row">
-              <div class="col-12 col-md-6 col-lg-4">
-                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="
-                      visibility: visible;
-                      animation-delay: 0.3s;
-                      animation-name: fadeInLeft;
-                    ">
-                  <div class="timeline-icon">
-                    <i class="bi bi-display" aria-hidden="true"></i>
-                  </div>
-                  <div class="timeline-text">
-                    <h6>Software Developer</h6>
-                    <p>
-                      RMSoft Ltd 2020 - 2024 <br />
-                      <a href="http://rmsoft.rw" target="_blank" rel="noopener noreferrer">
-                        rmsoft.rw
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- START: portfolio -->
-  <section class="container" id="portfolio">
-    <div class="row justify-content-center">
-      <div class="col-12 mt-4 pt-4 mb-2 pb-2 text-center">
-        <h3 class="text-success">Portfolio</h3>
-        <h6 class="display-6">Projects I've worked on</h6>
-      </div>
-      <div class="col-md-3">
-        <div class="card mb-3">
-          <img src="/img/react-calendar.png" class="card-img-top" loading="lazy" alt="react calendar" />
-          <div class="card-body">
-            <h5 class="card-title">React Calendar</h5>
-            <p class="card-text">
-              A simple react calendar component with bootstrap.
-            </p>
-            <a href="https://codepen.io/6hislain/full/ZEJXVNR" target="_blank" class="btn btn-sm btn-outline-success">
-              View More &rarr;
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card mb-3">
-          <img src="/img/kcf.png" class="card-img-top" loading="lazy" alt="kwizera charity foundation" />
-          <div class="card-body">
-            <h5 class="card-title">Kwizera Charity Foundation</h5>
-            <p class="card-text">
-              Children's foundation in Kacyiru, Kigali, Rwanda
-            </p>
-            <a href="https://kwizeracharityfoundation.org/" target="_blank" class="btn btn-sm btn-outline-success">
-              View More &rarr;
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card mb-3">
-          <img src="/img/bigdealrwanda.png" class="card-img-top" loading="lazy" alt="big deal rwanda" />
-          <div class="card-body">
-            <h5 class="card-title">Big Deal Rwanda</h5>
-            <p class="card-text">
-              A classified ads website for buying and selling items in Rwanda
-            </p>
-            <a href="https://bigdealrwanda.com/" target="_blank" class="btn btn-sm btn-outline-success">
-              View More &rarr;
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card mb-3">
-          <img src="/img/meow-extension-pack.png" class="card-img-top" loading="lazy" alt="the reporter" />
-          <div class="card-body">
-            <h5 class="card-title">Meow Extension Pack</h5>
-            <p class="card-text">
-              VsCode extension pack with essential web develpoment extensions
-            </p>
-            <a href="https://marketplace.visualstudio.com/items?itemName=6hislain.meow-extension-pack" target="_blank"
-              class="btn btn-sm btn-outline-success">
-              View More &rarr;
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- START: testimonial -->
-  <section class="container" id="testimonial">
-    <div class="row justify-content-center">
-      <div class="col-12 mt-4 pt-4 text-center">
-        <h3 class="text-success">Testimonial</h3>
-        <h6 class="display-6">What clients say</h6>
-      </div>
-      <div class="col-md-4">
-        <div class="card card-body text-center my-3">
-          <p class="card-text">
-            Working with Ghislain was a seamless experience; his creativity
-            and attention to detail brought our vision to life.
-          </p>
-          <i class="bi bi-person-circle display-4"></i>
-          <h5 class="card-title">Gisuma Coffee</h5>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card card-body text-center my-3">
-          <p class="card-text">
-            Ghislain's consistently delivers exceptional work, combining
-            technical expertise with a deep understanding of our brand's
-            needs.
-          </p>
-          <i class="bi bi-person-circle display-4"></i>
-          <h5 class="card-title">Kwizera Charity Foundation</h5>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card card-body text-center my-3">
-          <p class="card-text">
-            His dedication and fresh approach have significantly improved our
-            user engagement, making them a valuable partner.
-          </p>
-          <i class="bi bi-person-circle display-4"></i>
-          <h5 class="card-title">Shangi Mountain Coffee</h5>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- START: blog -->
-  <section class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 mt-4 pt-4 mb-2 pb-2 text-center">
-        <h3 class="text-success">Blog</h3>
-        <h6 class="display-6">Recent blog posts</h6>
-      </div>
-      <div class="col-md-3">
-        <div class="card mb-3">
-          <img src="https://nvchad.com/banner.webp" class="card-img-top" loading="lazy"
-            alt="Neovim: The Modern Vim Fork" />
-          <div class="card-body">
-            <h5 class="card-title">Neovim: The Modern Vim Fork</h5>
-            <p class="card-text">
-              Neovim is a hyperextensible Vim-based text editor that has taken
-              the programming world by storm
-            </p>
-            <a href="/blog/neovim.html" class="btn btn-sm btn-outline-success">
-              View More &rarr;
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card mb-3">
-          <img src="https://www.javierleal.com/storage/2020/07/logo-inertiajs.png" class="card-img-top" loading="lazy"
-            alt="inertia" />
-          <div class="card-body">
-            <h5 class="card-title">
-              Inertia.js: The Modern Bridge Between Server and Client-Side
-              Frameworks
-            </h5>
-            <p class="card-text">
-              integrate the best features of server-side and client-side
-              rendering
-            </p>
-            <a href="/blog/inertia.html" class="btn btn-sm btn-outline-success">
-              View More &rarr;
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card mb-3">
-          <img src="https://sourcetoad.com/wp-content/uploads/2023/10/redis-1.png" class="card-img-top" loading="lazy"
-            alt="redis" />
-          <div class="card-body">
-            <h5 class="card-title">Redis: The High-Speed Data Handler</h5>
-            <p class="card-text">
-              in-memory data structure store, used as a database, cache, and
-              message broker
-            </p>
-            <a href="/blog/redis.html" class="btn btn-sm btn-outline-success">
-              View More &rarr;
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card mb-3">
+        <div class="col-md-5 my-4 py-4">
           <img
-            src="https://www.beekeeperstudio.io/assets/img/screenshots/connection-dark-531fca8f337e20043a9107381a2413ff39514bd4c62da11f603904c6c1475bd30f00b56cf99456db8df01980aa647dfbb806105e0a685f9c20d4d316bcf4eee6.png"
-            class="card-img-top" loading="lazy" alt="beekeeper studio" />
-          <div class="card-body">
-            <h5 class="card-title">Beekeeper Studio: A Quick Guide</h5>
+            src="/img/6hislain.png"
+            class="rounded-circle mx-auto d-block img-cover"
+            height="320"
+            width="320"
+            loading="lazy"
+            alt="6hislain"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- START: about -->
+    <section class="container" id="about">
+      <div class="row justify-content-center">
+        <div class="col-12 mt-4 pt-4 mb-2 pb-2 text-center">
+          <h3 class="text-success">About Me</h3>
+          <h6 class="display-6">How I started & what I do</h6>
+        </div>
+        <div class="col-md-8 mb-3">
+          <p>
+            I started coding out of curiosity, I wanted to figure out how mobile
+            apps and websites work. I like working on software, and feeling a
+            sense of accomplishment when something I made is used by clients or
+            users.
+          </p>
+          <ul>
+            <li>Located in Alberta, Canada</li>
+            <li>Spoken languages: English, Francais, Kiswahili, Kinyarwanda</li>
+            <li>Open to freelance work</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- START: services -->
+    <section class="container" id="service">
+      <div class="row justify-content-center">
+        <div class="col-12 mt-2 pt-2 text-center">
+          <h3 class="text-success">Services</h3>
+          <h6 class="display-6">What can I offer</h6>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-body text-center my-3">
+            <i class="bi bi-browser-chrome display-4"></i>
+            <h5 class="card-title">Web Development</h5>
             <p class="card-text">
-              Beekeeper Studio is a modern, open-source SQL editor and
-              database management application
+              I am familiar with Laravel, Django, and Nodejs. Get in touch if
+              you need a website
             </p>
-            <a href="/blog/beekeeper.html" class="btn btn-sm btn-outline-success">
-              View More &rarr;
-            </a>
           </div>
         </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card mb-3">
-          <img src="https://wallpaperaccess.com/full/4584345.png" class="card-img-top" loading="lazy" alt="vue.js" />
-          <div class="card-body">
-            <h5 class="card-title">Vue.js: A Quick Overview</h5>
+        <div class="col-md-4">
+          <div class="card card-body text-center my-3">
+            <i class="bi bi-person-vcard display-4"></i>
+            <h5 class="card-title">Consultancy</h5>
             <p class="card-text">
-              Vue.js has emerged as a popular JavaScript framework for
-              building web interfaces and single-page applications
+              I occasionally do web hosting, article writing, code testing,
+              content creation, etc
             </p>
-            <a href="/blog/vue.html" class="btn btn-sm btn-outline-success">
-              View More &rarr;
-            </a>
           </div>
         </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card mb-3">
-          <img src="https://blog.appseed.us/content/images/size/w2000/2021/04/cover-blog-creative-tim-django-sheet.png"
-            class="card-img-top" loading="lazy" alt="django" />
-          <div class="card-body">
-            <h5 class="card-title">
-              Exploring Django: The Pros, Cons, and Resources
-            </h5>
+        <div class="col-md-4">
+          <div class="card card-body text-center my-3">
+            <i class="bi bi-android2 display-4"></i>
+            <h5 class="card-title">Mobile App</h5>
             <p class="card-text">
-              Django, the high-level Python web framework for rapid
-              development and using a clean, pragmatic design.
+              I prefer to use Flutter to make mobile apps. It has good support
+              and performance
             </p>
-            <a href="/blog/django.html" class="btn btn-sm btn-outline-success">
-              View More &rarr;
-            </a>
           </div>
         </div>
       </div>
-      <div class="col-md-3">
-        <div class="card mb-3">
-          <img src="https://wallpaperaccess.com/full/4609570.jpg" class="card-img-top" loading="lazy"
-            alt="Flutter: The UI Toolkit for Every Screen" />
-          <div class="card-body">
-            <h5 class="card-title">
-              Flutter: The UI Toolkit for Every Screen
-            </h5>
+    </section>
+    <!-- START: resume -->
+    <section class="container" id="resume">
+      <div class="row justify-content-center">
+        <div class="col-12 mt-4 pt-4 mb-2 pb-2 text-center">
+          <h3 class="text-success">Resume</h3>
+          <h6 class="display-6">4+ years of experience</h6>
+        </div>
+        <div class="col-12">
+          <!-- Timeline Area-->
+          <div class="apland-timeline-area">
+            <!-- Education -->
+            <div class="single-timeline-area">
+              <div
+                class="timeline-date wow fadeInLeft"
+                data-wow-delay="0.1s"
+                style="
+                  visibility: visible;
+                  animation-delay: 0.1s;
+                  animation-name: fadeInLeft;
+                "
+              >
+                <p>Education</p>
+              </div>
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div
+                    class="single-timeline-content d-flex wow fadeInLeft"
+                    data-wow-delay="0.3s"
+                    style="
+                      visibility: visible;
+                      animation-delay: 0.3s;
+                      animation-name: fadeInLeft;
+                    "
+                  >
+                    <div class="timeline-icon">
+                      <i class="bi bi-person-workspace" aria-hidden="true"></i>
+                    </div>
+                    <div class="timeline-text">
+                      <h6>Bsc in Software Engineering</h6>
+                      <p>
+                        Adventist University of Central Africa <br />
+                        <a
+                          href="http://auca.ac.rw"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          auca.ac.rw
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Skills -->
+            <div class="single-timeline-area">
+              <div
+                class="timeline-date wow fadeInLeft"
+                data-wow-delay="0.1s"
+                style="
+                  visibility: visible;
+                  animation-delay: 0.1s;
+                  animation-name: fadeInLeft;
+                "
+              >
+                <p>Skills</p>
+              </div>
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div
+                    class="single-timeline-content d-flex wow fadeInLeft"
+                    data-wow-delay="0.3s"
+                    style="
+                      visibility: visible;
+                      animation-delay: 0.3s;
+                      animation-name: fadeInLeft;
+                    "
+                  >
+                    <div class="timeline-icon">
+                      <i class="bi bi-7-square" aria-hidden="true"></i>
+                    </div>
+                    <div class="timeline-text">
+                      <h6>Laravel</h6>
+                      <p>
+                        The first web framework I learnt. Learned about MVC,
+                        API, etc
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div
+                    class="single-timeline-content d-flex wow fadeInLeft"
+                    data-wow-delay="0.5s"
+                    style="
+                      visibility: visible;
+                      animation-delay: 0.5s;
+                      animation-name: fadeInLeft;
+                    "
+                  >
+                    <div class="timeline-icon">
+                      <i class="bi bi-diamond-half" aria-hidden="true"></i>
+                    </div>
+                    <div class="timeline-text">
+                      <h6>Nodejs</h6>
+                      <p>
+                        Introduced to Nodejs through Vue.js by using Laravel
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div
+                    class="single-timeline-content d-flex wow fadeInLeft"
+                    data-wow-delay="0.5s"
+                    style="
+                      visibility: visible;
+                      animation-delay: 0.5s;
+                      animation-name: fadeInLeft;
+                    "
+                  >
+                    <div class="timeline-icon">
+                      <i class="bi bi-terminal" aria-hidden="true"></i>
+                    </div>
+                    <div class="timeline-text">
+                      <h6>Django</h6>
+                      <p>
+                        Used Django in projects that required data science and
+                        python
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Experience-->
+            <div class="single-timeline-area">
+              <div
+                class="timeline-date wow fadeInLeft"
+                data-wow-delay="0.1s"
+                style="
+                  visibility: visible;
+                  animation-delay: 0.1s;
+                  animation-name: fadeInLeft;
+                "
+              >
+                <p>Experience</p>
+              </div>
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div
+                    class="single-timeline-content d-flex wow fadeInLeft"
+                    data-wow-delay="0.3s"
+                    style="
+                      visibility: visible;
+                      animation-delay: 0.3s;
+                      animation-name: fadeInLeft;
+                    "
+                  >
+                    <div class="timeline-icon">
+                      <i class="bi bi-display" aria-hidden="true"></i>
+                    </div>
+                    <div class="timeline-text">
+                      <h6>Software Developer</h6>
+                      <p>
+                        RMSoft Ltd 2020 - 2025 <br />
+                        <a
+                          href="http://rmsoft.rw"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          rmsoft.rw
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- START: portfolio -->
+    <section class="container" id="portfolio">
+      <div class="row justify-content-center">
+        <div class="col-12 mt-4 pt-4 mb-2 pb-2 text-center">
+          <h3 class="text-success">Portfolio</h3>
+          <h6 class="display-6">Projects I've worked on</h6>
+        </div>
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <img
+              src="/img/react-calendar.png"
+              class="card-img-top"
+              loading="lazy"
+              alt="react calendar"
+            />
+            <div class="card-body">
+              <h5 class="card-title">React Calendar</h5>
+              <p class="card-text">
+                A simple react calendar component with bootstrap.
+              </p>
+              <a
+                href="https://codepen.io/6hislain/full/ZEJXVNR"
+                target="_blank"
+                class="btn btn-sm btn-outline-success"
+              >
+                View More &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <img
+              src="/img/kcf.png"
+              class="card-img-top"
+              loading="lazy"
+              alt="kwizera charity foundation"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kwizera Charity Foundation</h5>
+              <p class="card-text">
+                Children's foundation in Kacyiru, Kigali, Rwanda
+              </p>
+              <a
+                href="https://kwizeracharityfoundation.org/"
+                target="_blank"
+                class="btn btn-sm btn-outline-success"
+              >
+                View More &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <img
+              src="/img/bigdealrwanda.png"
+              class="card-img-top"
+              loading="lazy"
+              alt="shangi mountain coffee"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Shangi Mountain Coffee</h5>
+              <p class="card-text">
+                Coffee exporter from the land of a thousand hills
+              </p>
+              <a
+                href="https://shangimountaincoffee.com/"
+                target="_blank"
+                class="btn btn-sm btn-outline-success"
+              >
+                View More &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <img
+              src="/img/meow-extension-pack.png"
+              class="card-img-top"
+              loading="lazy"
+              alt="the reporter"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Meow Extension Pack</h5>
+              <p class="card-text">
+                VsCode extension pack with essential web develpoment extensions
+              </p>
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=6hislain.meow-extension-pack"
+                target="_blank"
+                class="btn btn-sm btn-outline-success"
+              >
+                View More &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- START: testimonial -->
+    <section class="container" id="testimonial">
+      <div class="row justify-content-center">
+        <div class="col-12 mt-4 pt-4 text-center">
+          <h3 class="text-success">Testimonial</h3>
+          <h6 class="display-6">What clients say</h6>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-body text-center my-3">
             <p class="card-text">
-              Flutter is an open-source UI software development kit designed
-              to help build cross platform applications
+              Working with Ghislain was a seamless experience; his creativity
+              and attention to detail brought our vision to life.
             </p>
-            <a href="/blog/flutter.html" class="btn btn-sm btn-outline-success">
-              View More &rarr;
-            </a>
+            <i class="bi bi-person-circle display-4"></i>
+            <h5 class="card-title">Gisuma Coffee</h5>
           </div>
         </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card mb-3">
-          <img src="https://ensocore.com/media/87/fece433e54f817872309273fb46fe6e9.jpg" class="card-img-top"
-            loading="lazy" alt="laravel" />
-          <div class="card-body">
-            <h5 class="card-title">
-              Exploring Laravel: Advantages, and Resources
-            </h5>
+        <div class="col-md-4">
+          <div class="card card-body text-center my-3">
             <p class="card-text">
-              Laravel, a robust PHP framework, has been a topic of interest
-              for web developers since its introduction.
+              Ghislain's consistently delivers exceptional work, combining
+              technical expertise with a deep understanding of our brand's
+              needs.
             </p>
-            <a href="/blog/laravel.html" class="btn btn-sm btn-outline-success">
-              View More &rarr;
-            </a>
+            <i class="bi bi-person-circle display-4"></i>
+            <h5 class="card-title">Kwizera Charity Foundation</h5>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-body text-center my-3">
+            <p class="card-text">
+              His dedication and fresh approach have significantly improved our
+              user engagement, making them a valuable partner.
+            </p>
+            <i class="bi bi-person-circle display-4"></i>
+            <h5 class="card-title">Shangi Mountain Coffee</h5>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- START: course -->
-  <section class="container" id="course">
-    <div class="row justify-content-center">
-      <div class="col-12 mt-4 pt-4 mb-2 pb-2 text-center">
-        <h3 class="text-success">Course</h3>
-        <h6 class="display-6">Free & premium course recommendation</h6>
-      </div>
-      <div class="col-12">
-        <div class="table-responsive mb-3">
-          <table class="table table-hover table-bordered w-100 my-0">
-            <thead>
-              <tr>
-                <th scope="col">JavaScript</th>
-                <th scope="col">Vue</th>
-                <th scope="col">React</th>
-                <th scope="col">PHP</th>
-                <th scope="col">Laravel</th>
-                <th scope="col">TypeScript</th>
-                <th scope="col">GraphQL</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>
-                  <img src="/img/javascript.svg" loading="lazy" alt="javascript" height="50" width="50" />
-                </td>
-                <td>
-                  <img src="/img/vue.svg" loading="lazy" alt="vue" width="50" height="50" />
-                </td>
-                <td>
-                  <img src="/img/react.svg" loading="lazy" alt="react" height="50" width="50" />
-                </td>
-                <td>
-                  <img src="/img/php.svg" loading="lazy" alt="php" width="95" height="50" />
-                </td>
-                <td>
-                  <img src="/img/laravel.svg" loading="lazy" alt="laravel" height="50" width="50" />
-                </td>
-                <td>
-                  <img src="/img/typescript.svg" loading="lazy" alt="typescript" height="50" width="50" />
-                </td>
-                <td>
-                  <img src="/img/graphql.svg" loading="lazy" alt="graphql" height="50" width="50" />
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="https://javascript30.com/" target="_blank" rel="noopener noreferrer"
-                    class="text-decoration-none">
-                    JavaScript30
-                  </a>
-                </td>
-                <td>
-                  <a href="https://vueschool.io/courses?filter=free-courses" target="_blank" rel="noopener noreferrer"
-                    class="text-decoration-none">
-                    VueSchool
-                  </a>
-                </td>
-                <td>
-                  <a href="https://egghead.io/courses/the-beginner-s-guide-to-react" target="_blank"
-                    rel="noopener noreferrer" class="text-decoration-none">
-                    EggHead
-                  </a>
-                </td>
-                <td>
-                  <a href="http://phpforbeginners.com/" target="_blank" rel="noopener noreferrer"
-                    class="text-decoration-none">
-                    LaraCasts
-                  </a>
-                </td>
-                <td>
-                  <a href="http://laravelfromscratch.com/" target="_blank" rel="noopener noreferrer"
-                    class="text-decoration-none">
-                    LaraCasts
-                  </a>
-                </td>
-                <td>
-                  <a href="https://typescriptcourses.com/typescript-fundamentals" target="_blank"
-                    rel="noopener noreferrer" class="text-decoration-none">
-                    TypeScriptCourses
-                  </a>
-                </td>
-                <td>
-                  <a href="https://www.udemy.com/topic/graphql/free" target="_blank" rel="noopener noreferrer"
-                    class="text-decoration-none">
-                    Udemy
-                  </a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="https://coderbyte.com/starter-course/learn-javascript-in-one-week" target="_blank"
-                    rel="noopener noreferrer" class="text-decoration-none">
-                    CoderByte
-                  </a>
-                </td>
-                <td>
-                  <a href="https://www.vuemastery.com/courses/intro-to-vue-3/intro-to-vue3" target="_blank"
-                    rel="noopener noreferrer" class="text-decoration-none">
-                    VueMastery
-                  </a>
-                </td>
-                <td>
-                  <a href="https://www.freecodecamp.org/learn/front-end-development-libraries/react" target="_blank"
-                    rel="noopener noreferrer" class="text-decoration-none">
-                    FreeCodeCamp
-                  </a>
-                </td>
-                <td>
-                  <a href="https://phptherightway.com/" target="_blank" rel="noopener noreferrer"
-                    class="text-decoration-none">
-                    PHP: The Right Way
-                  </a>
-                </td>
-                <td>
-                  <a href="https://www.udemy.com/topic/laravel/free" target="_blank" rel="noopener noreferrer"
-                    class="text-decoration-none">
-                    Udemy
-                  </a>
-                </td>
-                <td>
-                  <a href="https://typehero.dev/" target="_blank" rel="noopener noreferrer"
-                    class="text-decoration-none">
-                    TypeHero
-                  </a>
-                </td>
-                <td>
-                  <a href="https://levelup.video/library?tags=graphql#library-grid" target="_blank"
-                    rel="noopener noreferrer" class="text-decoration-none">
-                    LevelUpTutorials
-                  </a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="https://scrimba.com/topic/javascript" target="_blank" rel="noopener noreferrer"
-                    class="text-decoration-none">
-                    Scrimba
-                  </a>
-                </td>
-                <td>
-                  <a href="https://laracasts.com/series/learn-vue-3-step-by-step" target="_blank"
-                    rel="noopener noreferrer" class="text-decoration-none">
-                    LaraCasts
-                  </a>
-                </td>
-                <td>
-                  <a href="https://blog.glitch.com/post/react-starter-kit" target="_blank" rel="noopener noreferrer"
-                    class="text-decoration-none">
-                    Glitch
-                  </a>
-                </td>
-                <td>
-                  <a href="https://www.codecademy.com/learn/learn-php-introduction" target="_blank"
-                    rel="noopener noreferrer" class="text-decoration-none">
-                    CodeAcademy
-                  </a>
-                </td>
-                <td>
-                  <a href="https://www.freecodecamp.org/news/tag/laravel" target="_blank" rel="noopener noreferrer"
-                    class="text-decoration-none">
-                    FreeCodeCamp
-                  </a>
-                </td>
-                <td colspan="2">
-                  <a href="https://scrimba.com/learn/typescript" target="_blank" rel="noopener noreferrer"
-                    class="text-decoration-none">
-                    Scrimba
-                  </a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="https://www.codecademy.com/enrolled/courses/introduction-to-javascript" target="_blank"
-                    rel="noopener noreferrer" class="text-decoration-none">
-                    CodeAcademy
-                  </a>
-                </td>
-                <td>
-                  <a href="https://scrimba.com/learn/learnvue" target="_blank" rel="noopener noreferrer"
-                    class="text-decoration-none">
-                    Scrimba
-                  </a>
-                </td>
-                <td>
-                  <a href="https://www.codecademy.com/enrolled/courses/react-101" target="_blank"
-                    rel="noopener noreferrer" class="text-decoration-none">
-                    CodeAcademy
-                  </a>
-                </td>
-                <td colspan="2">
-                  <a href="https://www.udemy.com/topic/php/free" target="_blank" rel="noopener noreferrer"
-                    class="text-decoration-none">
-                    Udemy
-                  </a>
-                </td>
-                <td colspan="2">
-                  <a href="https://www.udemy.com/topic/typescript/free" target="_blank" rel="noopener noreferrer"
-                    class="text-decoration-none">
-                    Udemy
-                  </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+    </section>
+    <!-- START: blog -->
+    <section class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 mt-4 pt-4 mb-2 pb-2 text-center">
+          <h3 class="text-success">Blog</h3>
+          <h6 class="display-6">Recent blog posts</h6>
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- START: contact -->
-  <section class="container" id="contact">
-    <div class="row">
-      <div class="col-12 mt-4 pt-4 mb-2 pb-2 text-center">
-        <h3 class="text-success">Contact</h3>
-        <h6 class="display-6">I would like to hear from you</h6>
-      </div>
-      <div class="col-md-5 mb-3">
-        <div class="d-flex">
-          <i class="bi bi-geo-alt-fill display-4 me-4 my-0"></i>
-          <div class="my-auto">
-            <h4>Address</h4>
-            <h5 class="lead mb-0">Kigali, Rwanda</h5>
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <img
+              src="https://nvchad.com/banner.webp"
+              class="card-img-top"
+              loading="lazy"
+              alt="Neovim: The Modern Vim Fork"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Neovim: The Modern Vim Fork</h5>
+              <p class="card-text">
+                Neovim is a hyperextensible Vim-based text editor that has taken
+                the programming world by storm
+              </p>
+              <a
+                href="/blog/neovim.html"
+                class="btn btn-sm btn-outline-success"
+              >
+                View More &rarr;
+              </a>
+            </div>
           </div>
         </div>
-        <div class="d-flex my-5">
-          <i class="bi bi-envelope-fill display-4 me-4 my-0"></i>
-          <div class="my-auto">
-            <h4>Email</h4>
-            <h5 class="lead mb-0">ghislainmike80@gmail.com</h5>
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <img
+              src="https://www.javierleal.com/storage/2020/07/logo-inertiajs.png"
+              class="card-img-top"
+              loading="lazy"
+              alt="inertia"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Inertia.js: The Modern Bridge Between Server and Client-Side
+                Frameworks
+              </h5>
+              <p class="card-text">
+                integrate the best features of server-side and client-side
+                rendering
+              </p>
+              <a
+                href="/blog/inertia.html"
+                class="btn btn-sm btn-outline-success"
+              >
+                View More &rarr;
+              </a>
+            </div>
           </div>
         </div>
-        <div class="d-flex">
-          <i class="bi bi-telephone-outbound-fill display-4 me-4 my-0"></i>
-          <div class="my-auto">
-            <h4>Phone</h4>
-            <h5 class="lead mb-0">+250 787 697 260</h5>
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <img
+              src="https://sourcetoad.com/wp-content/uploads/2023/10/redis-1.png"
+              class="card-img-top"
+              loading="lazy"
+              alt="redis"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Redis: The High-Speed Data Handler</h5>
+              <p class="card-text">
+                in-memory data structure store, used as a database, cache, and
+                message broker
+              </p>
+              <a href="/blog/redis.html" class="btn btn-sm btn-outline-success">
+                View More &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <img
+              src="https://www.beekeeperstudio.io/assets/img/screenshots/connection-dark-531fca8f337e20043a9107381a2413ff39514bd4c62da11f603904c6c1475bd30f00b56cf99456db8df01980aa647dfbb806105e0a685f9c20d4d316bcf4eee6.png"
+              class="card-img-top"
+              loading="lazy"
+              alt="beekeeper studio"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Beekeeper Studio: A Quick Guide</h5>
+              <p class="card-text">
+                Beekeeper Studio is a modern, open-source SQL editor and
+                database management application
+              </p>
+              <a
+                href="/blog/beekeeper.html"
+                class="btn btn-sm btn-outline-success"
+              >
+                View More &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <img
+              src="https://wallpaperaccess.com/full/4584345.png"
+              class="card-img-top"
+              loading="lazy"
+              alt="vue.js"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Vue.js: A Quick Overview</h5>
+              <p class="card-text">
+                Vue.js has emerged as a popular JavaScript framework for
+                building web interfaces and single-page applications
+              </p>
+              <a href="/blog/vue.html" class="btn btn-sm btn-outline-success">
+                View More &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <img
+              src="https://kanhasoft.com/blog/wp-content/uploads/2018/07/django.jpg"
+              class="card-img-top"
+              loading="lazy"
+              alt="django"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Exploring Django: The Pros, Cons, and Resources
+              </h5>
+              <p class="card-text">
+                Django, the high-level Python web framework for rapid
+                development and using a clean, pragmatic design.
+              </p>
+              <a
+                href="/blog/django.html"
+                class="btn btn-sm btn-outline-success"
+              >
+                View More &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <img
+              src="https://wallpaperaccess.com/full/4609570.jpg"
+              class="card-img-top"
+              loading="lazy"
+              alt="Flutter: The UI Toolkit for Every Screen"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Flutter: The UI Toolkit for Every Screen
+              </h5>
+              <p class="card-text">
+                Flutter is an open-source UI software development kit designed
+                to help build cross platform applications
+              </p>
+              <a
+                href="/blog/flutter.html"
+                class="btn btn-sm btn-outline-success"
+              >
+                View More &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <img
+              src="https://ensocore.com/media/87/fece433e54f817872309273fb46fe6e9.jpg"
+              class="card-img-top"
+              loading="lazy"
+              alt="laravel"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Exploring Laravel: Advantages, and Resources
+              </h5>
+              <p class="card-text">
+                Laravel, a robust PHP framework, has been a topic of interest
+                for web developers since its introduction.
+              </p>
+              <a
+                href="/blog/laravel.html"
+                class="btn btn-sm btn-outline-success"
+              >
+                View More &rarr;
+              </a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-md-7 mb-3">
-        <form action="#" method="post" class="row">
-          <div class="col-md-6">
-            <input required type="text" name="name" class="form-control form-control-lg mb-3" placeholder="Full name" />
+    </section>
+    <!-- START: course -->
+    <section class="container" id="course">
+      <div class="row justify-content-center">
+        <div class="col-12 mt-4 pt-4 mb-2 pb-2 text-center">
+          <h3 class="text-success">Course</h3>
+          <h6 class="display-6">Free & premium course recommendation</h6>
+        </div>
+        <div class="col-12">
+          <div class="table-responsive mb-3">
+            <table class="table table-hover table-bordered w-100 my-0">
+              <thead>
+                <tr>
+                  <th scope="col">JavaScript</th>
+                  <th scope="col">Vue</th>
+                  <th scope="col">React</th>
+                  <th scope="col">PHP</th>
+                  <th scope="col">Laravel</th>
+                  <th scope="col">TypeScript</th>
+                  <th scope="col">GraphQL</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <img
+                      src="/img/javascript.svg"
+                      loading="lazy"
+                      alt="javascript"
+                      height="50"
+                      width="50"
+                    />
+                  </td>
+                  <td>
+                    <img
+                      src="/img/vue.svg"
+                      loading="lazy"
+                      alt="vue"
+                      width="50"
+                      height="50"
+                    />
+                  </td>
+                  <td>
+                    <img
+                      src="/img/react.svg"
+                      loading="lazy"
+                      alt="react"
+                      height="50"
+                      width="50"
+                    />
+                  </td>
+                  <td>
+                    <img
+                      src="/img/php.svg"
+                      loading="lazy"
+                      alt="php"
+                      width="95"
+                      height="50"
+                    />
+                  </td>
+                  <td>
+                    <img
+                      src="/img/laravel.svg"
+                      loading="lazy"
+                      alt="laravel"
+                      height="50"
+                      width="50"
+                    />
+                  </td>
+                  <td>
+                    <img
+                      src="/img/typescript.svg"
+                      loading="lazy"
+                      alt="typescript"
+                      height="50"
+                      width="50"
+                    />
+                  </td>
+                  <td>
+                    <img
+                      src="/img/graphql.svg"
+                      loading="lazy"
+                      alt="graphql"
+                      height="50"
+                      width="50"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://javascript30.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                    >
+                      JavaScript30
+                    </a>
+                  </td>
+                  <td>
+                    <a
+                      href="https://vueschool.io/courses?filter=free-courses"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                    >
+                      VueSchool
+                    </a>
+                  </td>
+                  <td>
+                    <a
+                      href="https://egghead.io/courses/the-beginner-s-guide-to-react"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                    >
+                      EggHead
+                    </a>
+                  </td>
+                  <td>
+                    <a
+                      href="http://phpforbeginners.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                    >
+                      LaraCasts
+                    </a>
+                  </td>
+                  <td>
+                    <a
+                      href="http://laravelfromscratch.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                    >
+                      LaraCasts
+                    </a>
+                  </td>
+                  <td>
+                    <a
+                      href="https://typescriptcourses.com/typescript-fundamentals"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                    >
+                      TypeScriptCourses
+                    </a>
+                  </td>
+                  <td>
+                    <a
+                      href="https://www.udemy.com/topic/graphql/free"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                    >
+                      Udemy
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://coderbyte.com/starter-course/learn-javascript-in-one-week"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                    >
+                      CoderByte
+                    </a>
+                  </td>
+                  <td>
+                    <a
+                      href="https://www.vuemastery.com/courses/intro-to-vue-3/intro-to-vue3"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                    >
+                      VueMastery
+                    </a>
+                  </td>
+                  <td>
+                    <a
+                      href="https://www.freecodecamp.org/learn/front-end-development-libraries/react"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                    >
+                      FreeCodeCamp
+                    </a>
+                  </td>
+                  <td>
+                    <a
+                      href="https://phptherightway.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                    >
+                      PHP: The Right Way
+                    </a>
+                  </td>
+                  <td>
+                    <a
+                      href="https://www.udemy.com/topic/laravel/free"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                    >
+                      Udemy
+                    </a>
+                  </td>
+                  <td>
+                    <a
+                      href="https://typehero.dev/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                    >
+                      TypeHero
+                    </a>
+                  </td>
+                  <td>
+                    <a
+                      href="https://levelup.video/library?tags=graphql#library-grid"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                    >
+                      LevelUpTutorials
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://scrimba.com/topic/javascript"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                    >
+                      Scrimba
+                    </a>
+                  </td>
+                  <td>
+                    <a
+                      href="https://laracasts.com/series/learn-vue-3-step-by-step"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                    >
+                      LaraCasts
+                    </a>
+                  </td>
+                  <td>
+                    <a
+                      href="https://blog.glitch.com/post/react-starter-kit"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                    >
+                      Glitch
+                    </a>
+                  </td>
+                  <td>
+                    <a
+                      href="https://www.codecademy.com/learn/learn-php-introduction"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                    >
+                      CodeAcademy
+                    </a>
+                  </td>
+                  <td>
+                    <a
+                      href="https://www.freecodecamp.org/news/tag/laravel"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                    >
+                      FreeCodeCamp
+                    </a>
+                  </td>
+                  <td colspan="2">
+                    <a
+                      href="https://scrimba.com/learn/typescript"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                    >
+                      Scrimba
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://www.codecademy.com/enrolled/courses/introduction-to-javascript"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                    >
+                      CodeAcademy
+                    </a>
+                  </td>
+                  <td>
+                    <a
+                      href="https://scrimba.com/learn/learnvue"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                    >
+                      Scrimba
+                    </a>
+                  </td>
+                  <td>
+                    <a
+                      href="https://www.codecademy.com/enrolled/courses/react-101"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                    >
+                      CodeAcademy
+                    </a>
+                  </td>
+                  <td colspan="2">
+                    <a
+                      href="https://www.udemy.com/topic/php/free"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                    >
+                      Udemy
+                    </a>
+                  </td>
+                  <td colspan="2">
+                    <a
+                      href="https://www.udemy.com/topic/typescript/free"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                    >
+                      Udemy
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-          <div class="col-md-6">
-            <input required type="email" name="email" class="form-control form-control-lg mb-3" placeholder="Email" />
-          </div>
-          <div class="col-md-6">
-            <input type="text" name="phone" class="form-control form-control-lg mb-3" placeholder="Telephone" />
-          </div>
-          <div class="col-md-6">
-            <input required type="text" name="subject" class="form-control form-control-lg mb-3"
-              placeholder="Subject" />
-          </div>
-          <div class="col-12">
-            <textarea name="message" rows="5" class="form-control form-control-lg mb-3"
-              placeholder="Write your message here"></textarea>
-            <button type="submit" class="btn btn-lg btn-success rounded-pill">
-              Submit
-            </button>
-          </div>
-        </form>
+        </div>
       </div>
-    </div>
-  </section>
-  <!-- START: footer -->
-  <footer class="text-center my-4 py-4">
-    <i class="bi bi-code-slash me-1"></i> with
-    <i class="bi bi-heart-fill text-danger mx-1"></i> by
-    <a class="text-decoration-none" target="_blank" rel="noopener noreferrer" href="https://bio.link/6hislain">
-      @6hislain
-    </a>
-  </footer>
-  <!-- START: scripts -->
-  <script src="/js/bootstrap.bundle.min.js"></script>
-  <script src="/js/script.js"></script>
-</body>
-
+    </section>
+    <!-- START: contact -->
+    <section class="container" id="contact">
+      <div class="row">
+        <div class="col-12 mt-4 pt-4 mb-2 pb-2 text-center">
+          <h3 class="text-success">Contact</h3>
+          <h6 class="display-6">I would like to hear from you</h6>
+        </div>
+        <div class="col-md-5 mb-3">
+          <div class="d-flex">
+            <i class="bi bi-geo-alt-fill display-4 me-4 my-0"></i>
+            <div class="my-auto">
+              <h4>Address</h4>
+              <h5 class="lead mb-0">Edmonton, Alberta</h5>
+            </div>
+          </div>
+          <div class="d-flex my-5">
+            <i class="bi bi-envelope-fill display-4 me-4 my-0"></i>
+            <div class="my-auto">
+              <h4>Email</h4>
+              <h5 class="lead mb-0">ghislainmike80@gmail.com</h5>
+            </div>
+          </div>
+          <div class="d-flex">
+            <i class="bi bi-telephone-outbound-fill display-4 me-4 my-0"></i>
+            <div class="my-auto">
+              <h4>Phone</h4>
+              <h5 class="lead mb-0">+1 780 232 3364</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7 mb-3">
+          <form action="#" method="post" class="row">
+            <div class="col-md-6">
+              <input
+                required
+                type="text"
+                name="name"
+                class="form-control form-control-lg mb-3"
+                placeholder="Full name"
+              />
+            </div>
+            <div class="col-md-6">
+              <input
+                required
+                type="email"
+                name="email"
+                class="form-control form-control-lg mb-3"
+                placeholder="Email"
+              />
+            </div>
+            <div class="col-md-6">
+              <input
+                type="text"
+                name="phone"
+                class="form-control form-control-lg mb-3"
+                placeholder="Telephone"
+              />
+            </div>
+            <div class="col-md-6">
+              <input
+                required
+                type="text"
+                name="subject"
+                class="form-control form-control-lg mb-3"
+                placeholder="Subject"
+              />
+            </div>
+            <div class="col-12">
+              <textarea
+                name="message"
+                rows="5"
+                class="form-control form-control-lg mb-3"
+                placeholder="Write your message here"
+              ></textarea>
+              <button type="submit" class="btn btn-lg btn-success rounded-pill">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- START: footer -->
+    <footer class="text-center my-4 py-4">
+      <i class="bi bi-code-slash me-1"></i> with
+      <i class="bi bi-heart-fill text-danger mx-1"></i> by
+      <a
+        class="text-decoration-none"
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://bio.link/6hislain"
+      >
+        @6hislain
+      </a>
+    </footer>
+    <!-- START: scripts -->
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
 </html>
